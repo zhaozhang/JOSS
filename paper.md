@@ -28,6 +28,9 @@ bibliography: paper.bib
 ---
 
 # Summary
-Summary
+Application Skeleton is a simple and powerful tool to build synthetic applications with runtime and I/O close to that of the real ones. It allows the computer scientists to bypass the obstacles encountered when accessing and building the real applications to 
+verify the effectiveness of their new system design. Application Skeleton guarantees that the effective work on synthetic applications will also be applicable to the real applications.
 
+Application Skeleton can generate bag-of-task, (iterative) map-reduce, and (iterative) multistage workflow applications. The generated applications are compatible with workflow system such as Swift [@SWIFT07, @SWIFT09, @SWIFT11] and Pegasus [@PEGASUS04, @PEGASUS05], as well as the ubiquitous UNIX shell.
+The application can also be in the generic JSON object that can be used by other systems such as the AIMES [@AIMES15] middleware.
 # References
